@@ -4,7 +4,7 @@ Nội dung
 
 
 1. [Chương 1: Cài đặt](chap_01/README.md)
-1. Chương 2:
+1. [Chương 2](chap_02/README.md):
     1. Hello world
     1. Packages, Modules
 1. Chương 3: cấu trúc điều khiển

@@ -1,4 +1,4 @@
-# Cài đặt
+# Chương 1
 
 ## Cài đặt python
 
@@ -21,7 +21,7 @@
 
 ## Môi trường ảo `virtualenv`
 
-Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc cùng thư viện nhưng khác phiên bản, để tránh việc xung đột này thì mỗi dự án nên cài đặt môi trường riêng. Đối với Python 3.9 trở về sau thì không cần cài đặt `virtualenv` nữa mà sử dụng `venv` đã có sẵn trong Python 3.9.
+Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc cùng thư viện nhưng khác phiên bản, để tránh việc xung đột này thì mỗi dự án nên cài đặt môi trường riêng.
 
 1. Cài đặt `virtualenv`
     ```bash
@@ -31,6 +31,12 @@ Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc c
     ```bash
     cd my_project
     virtualenv .venv
+    ```
+
+Đối với Python 3.9 trở về sau thì không cần cài đặt `virtualenv` nữa mà sử dụng `venv` đã có sẵn trong Python 3.9.
+
+    ```bash
+    python -m venv .venv
     ```
 
 Câu lệnh trên có ý nghĩa là tại một môi trường ảo với thư mục chứa nó là `my_project/.venv`. Trong trường hợp muốn chỉ định rõ phiên bản python được cài thì sử dụng thêm tùy chọn `-p`, ví dụ: `virtualenv .venv -p python3.8`, hoặc `virtualenv .venv -p python3.9`.
@@ -68,10 +74,6 @@ Có thể kết hợp nhiều điều kiện cùng lúc, ví dụ `pylint>1,<3` 
 ## Bài tập
 
 1. Cài đặt: Visual Studio Code, Python 3.10, git.
-2. Tạo một project trên Gitlab/Github, tạo `.gitignore` theo template dành cho Python. và clone về local.
-3. Chạy lệnh python và in ra màn hình là `This is test `, thoát khỏi Python Integpreter.
-4. Tạo thư mục `chap_01` và các file sau:
-    1. `main.py` in ra dòng chữ `Hello <tên>`
-    2. `README.md` ghi ngắn gọn các bước làm trong bài tập.
-5. Tạo môi trường ảo có tên thư mục là `.venv` và add nó vào danh sách ingore.
-6. Dùng lại Python trong môi trường ảo chạy lại file `chap_01/main.py`.
+1. Chạy lệnh python và in ra màn hình là `This is system python`, thoát khỏi Python Interpreter.
+1. Cài đặt môi trường ảo với thư mục là `.venv`.
+1. Chạy IDLE của python của môi trường ảo bằng 2 cách: activate môi trường ảo và trỏ trực tiếp file python của môi trường ảo.
