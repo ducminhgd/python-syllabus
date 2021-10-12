@@ -67,11 +67,10 @@ Có thể kết hợp nhiều điều kiện cùng lúc, ví dụ `pylint>1,<3` 
 
 ## Bài tập
 
-1. Cài đặt Git và pull project này về.
-2. Cài đặt Python 3.10 với hệ điều hành mình đang sử dụng.
-3. Tạo ra một project Python tại máy local, yêu cầu:
-    1. Tên project chỉ gồm ký tự, ký số và `_`.
-    2. Sử dụng `venv` và Python 3.10.
-    3. Tích hợp với Visual Studio Code.
-    4. Dùng Python trong môi trường ảo, in ra câu `Hello, <tên>`
-4. Sử dụng Git để commit, tạo merge request cho bài tập. Tạo ra thư mục `chap_01/exercise/<tên_ho>`, ví dụ `chap_01/exercise/minh_gia`. Tạo file `README.md` trong thưu mục vừa tao và viết mỗ tả ngắn gọn các bước làm.
+1. Cài đặt: Visual Studio Code, Python 3.10, git.
+2. Tạo một project trên Gitlab/Github, tạo `.gitignore` theo template dành cho Python. và clone về local.
+3. Tạo thư mục `chap_01` và các file sau:
+    1. `main.py` in ra dòng chữ `Hello <tên>`
+    2. `README.md` ghi ngắn gọn các bước làm trong bài tập.
+4. Tạo môi trường ảo có tên thư mục là `.venv` và add nó vào danh sách ingore.
+5. Dùng lại Python trong môi trường ảo chạy lại file `chap_01/main.py`.
