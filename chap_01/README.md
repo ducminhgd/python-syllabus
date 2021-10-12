@@ -69,6 +69,7 @@ Có thể kết hợp nhiều điều kiện cùng lúc, ví dụ `pylint>1,<3` 
 
 1. Cài đặt: Visual Studio Code, Python 3.10, git.
 2. Tạo một project trên Gitlab/Github, tạo `.gitignore` theo template dành cho Python. và clone về local.
+3. Chạy lệnh python và in ra màn hình là `This is test `, thoát khỏi Python Integpreter.
 3. Tạo thư mục `chap_01` và các file sau:
     1. `main.py` in ra dòng chữ `Hello <tên>`
     2. `README.md` ghi ngắn gọn các bước làm trong bài tập.
