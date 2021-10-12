@@ -21,7 +21,7 @@
 
 ## Môi trường ảo `virtualenv`
 
-Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc cùng thư viện nhưng khác phiên bản, để tránh việc xung đột này thì mỗi dự án nên cài đặt môi trường riêng.
+Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc cùng thư viện nhưng khác phiên bản, để tránh việc xung đột này thì mỗi dự án nên cài đặt môi trường riêng. Đối với Python 3.9 trở về sau thì không cần cài đặt `virtualenv` nữa mà sử dụng `venv` đã có sẵn trong Python 3.9.
 
 1. Cài đặt `virtualenv`
     ```bash
@@ -64,3 +64,14 @@ Trong đó:
 | `>=`       | Lấy version mới nhất & lớn hơn hoặc bằng version được chỉ định                                  |
 
 Có thể kết hợp nhiều điều kiện cùng lúc, ví dụ `pylint>1,<3` là cài đặt version lớn hơn 1 và nhỏ hơn 3, cụ thể lúc viết bài này thì version mới nhất là `2.6.0`, phù hợp với điều kiện trên. 
+
+## Bài tập
+
+1. Cài đặt Git và pull project này về.
+2. Cài đặt Python 3.10 với hệ điều hành mình đang sử dụng.
+3. Tạo ra một project Python tại máy local, yêu cầu:
+    1. Tên project chỉ gồm ký tự, ký số và `_`.
+    2. Sử dụng `venv` và Python 3.10.
+    3. Tích hợp với Visual Studio Code.
+    4. Dùng Python trong môi trường ảo, in ra câu `Hello, <tên>`
+4. Sử dụng Git để commit, tạo merge request cho bài tập. Tạo ra thư mục `chap_01/exercise/<tên_ho>`, ví dụ `chap_01/exercise/minh_gia`. Tạo file `README.md` trong thưu mục vừa tao và viết mỗ tả ngắn gọn các bước làm.
