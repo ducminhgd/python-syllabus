@@ -19,7 +19,7 @@ Nội dung
     1. Ngày giờ
     1. Enumeration
     1. Mutable và immutable
-1. Chương 6: Hướng đối tượng
+1. [Chương 6](chap_06/README.md): Hướng đối tượng
 1. Phụ lục:
     1. [Coding convention](appendix/coding_convention.md)
 

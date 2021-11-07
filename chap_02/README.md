@@ -148,6 +148,22 @@ def sum_int(a: int, b: int) -> int:
     return a + b
 ```
 
+Biến tùy chọn của hàm
+
+Cú pháp
+
+```python
+def <func_name>(<var_name> = <failed-over-value>):
+    ...
+```
+
+```python
+def say_hello(name: str = 'Minh'):
+    print('Hello, ' + name)
+
+say_hello() # Hello, Minh
+```
+
 ## Bài tập
 
 1. Tạo ra các hàm sau: tính cộng, trừ, nhân, chia các số nguyên.
