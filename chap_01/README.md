@@ -42,7 +42,7 @@ Tùy vào mỗi dự án mà cần dùng những thư viện khác nhau hoặc c
 Câu lệnh trên có ý nghĩa là tại một môi trường ảo với thư mục chứa nó là `my_project/.venv`. Trong trường hợp muốn chỉ định rõ phiên bản python được cài thì sử dụng thêm tùy chọn `-p`, ví dụ: `virtualenv .venv -p python3.8`, hoặc `virtualenv .venv -p python3.9`.
 
 Có 2 cách sử dụng môi trường ảo nếu chạy terminal:
-1. Gọi đường dẫn đến file `python` hoặc `pip` cần dùng, ví dụn: `.venv/bin/python`, `.venv/bin/pip`
+1. Gọi đường dẫn đến file `python` hoặc `pip` cần dùng, ví dụ: `.venv/bin/python`, `.venv/bin/pip`
 1. Activate môi trường ảo `source .venv/bin/activate`, khi không dùng nữa có thể gõ lệnh `deactivate`
 
 ## Cài đặt packages
